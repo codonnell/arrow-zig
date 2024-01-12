@@ -5,6 +5,7 @@ pub const sample = @import("./sample.zig");
 pub const ipc = @import("./ipc/lib.zig");
 pub const Array = @import("./array/array.zig").Array;
 pub const array = @import("./array/lib.zig");
+pub const tags = @import("./tags.zig");
 
 fn sampleRecordBatch2(
     allocator: std.mem.Allocator,
